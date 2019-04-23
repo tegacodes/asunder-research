@@ -1,6 +1,6 @@
 # Viewing netCDF Files
 
-##ncview
+## ncview
 
 Climate models use a data formate called netCDF. 
 
@@ -33,7 +33,7 @@ If there is an error related to libpng:
 If this is the first time you are installing xquartz, you may get an error messange "Can't open display, if using default DISPLAY"
 - restart your computer and try again
 
-##netcdfjs
+## netcdfjs
 
 Javascript tool: https://github.com/cheminfo-js/netcdfjs
 
