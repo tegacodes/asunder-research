@@ -9,17 +9,17 @@ Make sure brew is installed:
 1) Make sure you have brew installed
 
 2) Install xQuartz
-
+```
 brew cask install xquartz
-
+```
 3) Install netCDF
-
+```
 brew install netCDF
-
+```
 4) Install ncview
-
+```
 brew install ncview
-
+```
 
 
 ### Errors: 
