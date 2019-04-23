@@ -6,7 +6,7 @@ This is an update on [these instructions](http://mazamascience.com/WorkingWithDa
 
 Make sure brew is installed:
 
-1) Make sure you have brew installed
+1) Make sure you have brew installed  
 Install instructions [are here.](https://brew.sh/)
 
 2) Install xQuartz
