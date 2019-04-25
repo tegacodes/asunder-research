@@ -3,7 +3,7 @@
 ```
 ncdump -h atmos.nc
 ```
-
+OUTPUT
 ```
 netcdf atmos {
 dimensions:
@@ -156,6 +156,8 @@ ncview atmos.nc
 ```
 
 ## Using Xarray
+From here: 
+https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f
 ```
 import xarray as xr
 import json
