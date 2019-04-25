@@ -4,7 +4,8 @@ Climate models use a data formate called netCDF.
 
 [Unidata’s](https://www.unidata.ucar.edu/software/netcdf/) Network Common Data Format has been the workhorse data format for atmospheric and oceanographic modelers since the early 1990’s. This is a guide for using a Mac to work with netCDF files.
 
-Info on the specs and grammar of the netcdf file format: https://www.unidata.ucar.edu/software/netcdf/docs/file_format_specifications.html
+Info on the specs and grammar of the netcdf file format: https://www.unidata.ucar.edu/software/netcdf/docs/file_format_specifications.html 
+This was helpful for navigating NetCDF file format: https://gdal.org/frmt_netcdf.html
 
 Tutorial on tools for visualizing netcdf: https://www.youtube.com/watch?v=XqoetylQAIY (good stuff about python tools at 24min)
 
@@ -38,7 +39,16 @@ If there is an error related to libpng:
 If this is the first time you are installing xquartz, you may get an error messange "Can't open display, if using default DISPLAY"
 - restart your computer and try again
 
-## netcdfjs
+## GDAL
 
+1) Install GDAL 
+```
+brew install gdal
+```
+
+
+
+
+Other notes:
 Javascript tool: https://github.com/cheminfo-js/netcdfjs
 
