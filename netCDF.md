@@ -77,6 +77,12 @@ Using GDAL to automatically generate the tif with the color ramp:
 ```
 gdaldem color-relief grndtemp.tif temp-color.txt gt-test-col.tif
 ```
+Examples:
+Surface water temp from land model output mapped here:
+![](t20-test-col.tif)
+
+Ground temp output mapped with different color ramp:
+![](gt-test-col.tif)
 
 CHANGE THE PROJECTION:
 In QGIS. Raster> Projections> Warp 
