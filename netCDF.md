@@ -72,6 +72,7 @@ First figure out what you want to do in QGIS:
 CHANGE THE COLOR: 
 In QGIS, double click on layer. In Symbology > Render tyoe > Singleband pseudocolor. Choose color ramp. Can save color ramp out as a text file to use in a script. Choose the disk and save out as temp-color.txt.
 *there is an annoying bug where you have to comment out the second line of this file before using it in GDAL*
+*To change the color of the spots where there is no data, change the last color. It fills everything with the color at the end.*
 
 Using GDAL to automatically generate the tif with the color ramp:
 ```
@@ -84,6 +85,5 @@ In QGIS. Raster> Projections> Warp
 The log will give you the GDAL command.
 (having some issues with this)
 
-Questions:
-How to set "no data" in the color ramp.
+
 
