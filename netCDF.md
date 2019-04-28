@@ -11,6 +11,8 @@ Tutorial on tools for visualizing netcdf: https://www.youtube.com/watch?v=Xqoety
 
 Use Panopoly to get see file format.
 
+This has an amazing sea surface temp dataset that shows the history of colonialism: http://mazamascience.com/WorkingWithData/?p=1474
+
 ## ncview
 
 This is an update on [these instructions](http://mazamascience.com/WorkingWithData/?p=1474).
